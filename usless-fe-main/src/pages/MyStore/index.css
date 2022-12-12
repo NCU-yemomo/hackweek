@@ -1,0 +1,199 @@
+.cs-MyStore-x{
+    width:auto;
+    border-radius:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height:840px;
+    background:url("../../svg/仓库背景.png");
+}
+/*back*/
+.cs-MyStore-back{
+  position:absolute;
+  top:50px;
+  left:5px;
+  width:25px;
+}
+
+/*前往已交换*/
+.cs-MyStore-already-exchange{
+  position:absolute;
+  top:150px;
+  right:5px;
+  width: 75px;
+  height: 34px;
+  background: #F3DA9F;
+  border-radius: 5px;
+  font-family: 'PingFang SC';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #594F35;
+}
+
+/*仓库物品**/
+.cs-MyStore-Content-x{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width:330px;
+    height:500px;
+    border-radius:10px;
+    padding:10px;
+    margin-top:10px;
+    overflow-y: scroll;
+}
+/*两边的商品瀑布*/
+.cs-MyStore-show{
+    width:150px;
+    height: auto;
+    display:flex;
+    flex-direction: column;
+}
+/*正方形和长方形的不同*/
+.cs-MyStore-Rectangle{
+    width: 150px;
+    height: 245px;
+    border: 4px solid #C0A96C;
+    border-radius: 26px;
+    border-radius: 10px;
+    margin-bottom:20px;
+    overflow:hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    box-sizing: content-box;
+    position:relative;
+}
+.cs-MyStore-square{
+    width: 150px;
+    height: 137px;
+    box-sizing: content-box;
+    border: 4px solid #C0A96C;
+    border-radius: 26px;
+    margin-bottom:10px;
+    overflow:hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    position:relative;
+}
+
+.cs-MyStore-Rectangle > .cs-MyStore-img,
+.cs-MyStore-square > .cs-MyStore-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.cs-MyStore-delete-img{
+ width:41px;
+ height:41px;
+ position:absolute; 
+  top:0px;
+  right:0px;
+}
+.cs-MyStore-delete-img:active{
+  transform:scale(0.9)
+}
+.cs-MyStore-button{
+    position:fixed;
+    bottom:5%;
+    margin:auto;
+    width:130px;
+    height:50px;
+    background: #FEFAE8;
+    border: 4px solid #C0A96C;
+    border-radius: 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    color: black;
+}
+
+/*向上滑动窗口编辑*/
+/*滑动盒子*/
+.cs-MyStore-check {
+    position: relative;
+    display: inline-block;
+    margin-left: 10px;
+    height: 80px;
+    width: 80px;
+    border-radius: 10px;
+    margin-left:40px;
+  }
+  
+  .cs-MyStore-check > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .cs-MyStore-check > input {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 20px;
+    height:20px;
+    border-radius: 100%;
+    background-color: white;
+  }
+  .cs-MyStore-check > input:checked {
+    background-color: lightblue;
+  }
+  .cs-MyStore-scroll-x {
+    margin:10px 0px;
+    overflow-x: scroll;
+    height: 120px;
+    width: auto;
+    background-color: lightblue;
+    white-space: nowrap;
+    padding:10px;
+    border-radius: 10px;
+    border: 1px solid black;
+  }
+  
+  .cs-MyStore-scroll-x::-webkit-scrollbar {
+    display: none;
+  }
+  /**按钮盒子*/
+  .cs-MySore-Popup-button{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:auto;
+  }
+  .cs-MySore-Popup-button > button{
+    width:145px;
+    height:40px;
+    background-color:white;
+    border-radius:10px;
+    box-shadow:2px 3px 4px rgba(0,0,0,0.1);
+    margin:10px;
+    font-family: 'PingFang SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+
+    color: #000000;
+  }
+  /*标题*/
+  .cs-MyStore-Popup-x > h1{
+    font-size: 30px;
+    font-weight: 600;
+    color: lightblue;
+    text-shadow: 2px 3px 4px rgba(0,0,0,0.1);
+    text-align: center;
+  }

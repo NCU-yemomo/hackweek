@@ -1,0 +1,113 @@
+.cs-regis-x{
+    width: auto;
+    height: 852px;
+    background:url("../../svg/抓抓背景/背景 11.png");
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cs-regis-x > h1{
+    font-size: 24px;
+    font-weight: 300px;
+    color: #333;
+    margin-bottom: 20px;
+    font-style:italic
+}
+.cs-regis-logo{
+    width:200px;
+    height:125px;
+    background-color:rgb(255, 248, 220);
+    box-shadow:2px 3px 4px rgba(0,0,0,0.1);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.cs-regis-img{
+    max-width: 100px;
+    max-height: 100px;
+    min-height: 50px;
+    min-width: 50px;
+}
+/*注册表单**/
+.cs-regis-form{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(255, 248, 220,0.7);
+    width:250px;
+    border-radius:20px ;
+}
+.cs-regis-form > input{
+    width: 282px;
+    height: 56px;
+    background: #F3DA9F;
+    border-radius: 15px;
+    outline:none;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color:black;
+    padding:10px;
+}
+.cs-regis-form > input::placeholder{
+    padding: 10px;
+    font-weight:50px;
+    text-align: center;
+}
+.cs-regis-form > input::content{
+    padding:10px;
+}
+.cs-regis-form > button{
+    border-radius:15px;
+    background:lightskyblue;
+    margin-bottom: 20px;
+    font-size: 16px;
+    width: 282px;
+    height: 56px;
+    background: #F3DA9F;
+    border: 4px solid #C0A96C;
+}
+.cs-regis-form > p{
+    font-family: 'PingFang SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #594F35;
+}
+.cs-regis-notice{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    bottom:5px;
+    margin:auto
+}
+.cs-regis-notice > p{
+    font-family: 'PingFang SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+
+    color: #594F35;
+}
+.cs-regis-notice > input{
+    background: #F3DA9F;
+    opacity: 0.4;
+    border-radius: 2px;
+    width:10px;
+    height:10px;
+}
+.cs-regis-notice > input:checked{
+    background: #F3DA9F;
+    opacity: 1;
+    border-radius: 2px;
+    width:10px;
+    height:10px;
+}
+

@@ -1,0 +1,128 @@
+.cs-Email-x{
+    min-height:840px;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background:url("../../svg/用户底部界面.png");
+}
+/*返回icon*/
+.cs-Email-back{
+    position:absolute;
+    left:10px;
+    top:10px;
+    width: 64px;
+    height: 30px;
+    background: #F3DA9F;
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 1;
+}
+.cs-Email-back > p{
+    font-family: 'PingFang SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+
+    color: #594F35;
+}
+/*消息通知标题**/
+.cs-Email-header{
+    width: 393px;
+    height: 100px;
+    background: #FFFEF0;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.cs-Email-header > p{
+    font-family: 'PingFang SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 45px;
+    color: #594F35;
+}
+/*消息通知界面*/
+.cs-Email-content{
+    display:flex;
+    width:100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.cs-Email-title{
+    width: 317px;
+    height: 66px;
+    background: #F3DA9F;
+    border: 4px solid #C0A96C;
+    box-shadow: 4px 4px 4px rgba(199, 182, 137, 0.7);
+    border-radius: 15px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.cs-Email-title > p{
+    font-family: 'PingFang SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    color: #594F35;
+}
+.cs-Email-item{
+    width: 317px;
+    height: 164px;
+    background: #F3DA9F;
+    border: 4px solid #C0A96C;
+    box-shadow: 4px 4px 4px rgba(199, 182, 137, 0.7);
+    border-radius: 15px;
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 20px;
+    padding:10px;
+    position:relative;
+}
+.cs-Email-item > p{
+    font-family: 'PingFang SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    color: #594F35;
+}
+
+.cs-Email-user{
+    position:absolute;
+    left:0;
+    bottom:0;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width:100%;
+    height:30px;
+}
+.cs-Email-user > img{
+    width:30px;
+    height:30px;
+    border-radius:50%;
+    margin-right:10px;
+}
+.cs-Email-user > p{
+    font-family: 'PingFang SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #594F35;
+}

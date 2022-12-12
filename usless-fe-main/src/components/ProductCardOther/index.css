@@ -1,0 +1,149 @@
+/*消息弹窗盒子*/
+.cs-ProductCardOther-background{
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    width:auto;
+    height:840px;
+    background:transparent;
+    z-index:999;
+    transition:all 0.5s ease-out;
+    transform: scale(0);
+    display: flex;
+    background: #FFF8D5;
+
+}
+/*滚动盒子*/
+.cs-Product-scroll{
+    width:auto;
+    height:840px;
+    background:transparent;
+    z-index:999;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    position:relative
+}
+/*弹窗载体盒子*/
+.cs-ProductCardOther-x{
+    width: 338px;
+    height: 497px;
+    border-radius: 25px;
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+    z-index:1000;
+    user-select:none;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    background: #FFFEF0;
+    box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+
+}
+.cs-ProductCardOther-cat{
+ transform:translateY(23px);
+}
+/*照片盒子载体*/
+.cs-ProductCardOther-img-x{
+    width: 275px;
+    height: 275px;
+    background: #F3DA9F;
+    border-radius: 20px;
+    margin-bottom:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/*照片*/
+.cs-ProductCardOther-img-x > img{
+    max-width: 275px;
+    max-height: 275px;
+    width: 100px;
+    height:100px;
+    border-radius: 50%;
+    border-bottom: 20px;
+    
+}
+/*商品标题盒子*/
+.cs-ProductCardOther-title{
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+    box-shadow: 1px 2px 2px rgba(0,0,0,0.1);
+}
+/*商品内容盒子*/
+.cs-ProductCardOther-content{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:20px;
+}
+.cs-ProductCardOther-content-func{
+    display:flex;
+    width: 274px;
+    justify-content:space-around;
+    align-items:center;
+    margin-bottom:20px;
+}
+.cs-ProductCardOther-content-func > p{
+    font-family: 'PingFang SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 45px;
+    color: #594F35;
+}
+/*按钮*/
+.cs-ProductCardOther-button{
+    width:88px;
+    height: 59px;
+
+    background: #F3DA9F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    transition:0.1s ease;
+    font-family: 'PingFang SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color:white;
+    text-align: center;
+    line-height:30px;
+    margin:0 15px;
+    margin-bottom:20px;
+    
+}
+.cs-ProductCardOther-button:active{
+    box-shadow:2px 3px 4px rgba(0,0,0,0.1);
+    transform:scale(0.9);
+    opacity:0.7;
+}
+/*关闭icon*/
+.cs-ProductCardOther-close{
+    position:absolute;
+    top:0;
+    right:0;
+    width:30px;
+    height:30px;
+    margin:10px;
+    cursor:pointer;
+    transition:0.1s ease;
+}
+.cs-ProductCardOther-footer-img{
+    width: 318px;
+    height: 141px;
+    position:absolute;
+    bottom:0;
+    left:10%;
+}

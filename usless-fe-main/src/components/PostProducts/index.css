@@ -1,0 +1,120 @@
+/*消息弹窗盒子*/
+.cs-PostProducts-background{
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    width:auto;
+    height:840px;
+    background:transparent;
+    z-index:999;
+    transition:all 0.5s ease-out;
+    transform: scale(0);
+
+}
+.cs-PostProducts-x{
+    width: 302px;
+    height: 600px;
+    background: #FFFEF0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+    z-index:1000;
+    user-select:none;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+
+}
+
+/*消息文字*/
+.cs-PostProducts-text{
+    font-size: 30px;
+    font-weight: 600;
+    color:white;
+    text-shadow:2px 3px 4px rgba(0,0,0,0.1);
+    margin-bottom:20px;
+}
+/*上传按钮*/
+.cs-PostProducts-upon{
+    width: 145px;
+    height: 48px;
+    background: #F3DA9F;
+    box-shadow: 4px 4px 4px 2px rgba(199, 182, 137, 0.2);
+    border-radius: 10px;
+    transition:0.1s ease;
+    font-size:20px;
+    font-family: 'PingFang SC';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    color: #594F35;
+    text-align: center;
+    margin-bottom:20px;
+    
+}
+.cs-PostProducts-upon:active{
+    box-shadow:2px 3px 4px rgba(0,0,0,0.1);
+    transform:scale(0.9);
+    opacity:0.7;
+}
+/*返回按钮*/
+.cs-PostProducts-button{
+    width: 145px;
+    height: 48px;
+    background: #F3DA9F;
+    box-shadow: 4px 4px 4px 2px rgba(199, 182, 137, 0.2);
+    border-radius: 10px;
+    transition:0.1s ease;
+    font-size:20px;
+    text-align: center;
+    line-height:30px;
+    margin-bottom:20px;
+}
+.cs-PostProducts-button:active{
+    box-shadow:2px 3px 4px rgba(0,0,0,0.1);
+    transform:scale(0.9);
+    opacity:0.7;
+}
+
+/*上传文件的按钮，脱离标准文档流，设置absolute*/
+.cs-PostProducts-file{
+    height:30px;
+    opacity:0;
+    position:absolute;
+    z-index:-1;
+}
+.cs-PostProducts-title{
+    width:200px;
+    height:30px;
+    border:none;
+    outline:none;
+    border-bottom: 1px solid #C0A96C;
+    background:transparent;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.cs-PostProducts-title:focus{
+    border-bottom: 1px solid lightblue;
+}
+.cs-PostProducts-description-x{
+    width: 200px;
+    height:100px;
+    margin-bottom:20px;
+}
+.cs-PostProducts-description::-webkit-scrollbar {
+    display: none;
+  }
+.cs-PostProducts-show{
+    border:1px solid lightblue;
+    background:transparent;
+    margin-bottom: 10px;
+    margin-top:10px;
+}

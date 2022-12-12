@@ -1,0 +1,188 @@
+
+/**客人反馈盒子*/
+.cs-Exchange-x{
+    height:840px;
+    width:auto;
+    background:url("../../svg/交换申请.png");
+    border-radius:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+/*标题盒子*/
+
+.cs-Exchange-header{
+    width:100vw;
+    height:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    position: relative;
+    background: #FFFEF0;
+    
+    margin-top:0px;
+}
+/*标题*/
+.cs-Exchange-header > h1{
+    font-family: 'PingFang SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 45px;
+    text-shadow: 2px 2px 4px rgba(255, 248, 213,0.1);
+    color: #594F35;
+}
+/*返回icon*/
+.cs-Exchange-back{
+    position:absolute;
+    left:10px;
+    top:10px;
+    width: 64px;
+    height: 30px;
+    background: #F3DA9F;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.cs-Exchange-back > p{
+    font-family: 'PingFang SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+
+    color: #594F35;
+}
+/*标题盒子*/
+.cs-Exchange-title{
+    align-self: flex-start;
+}
+.cs-Exchange-title > p{
+    font-family: 'PingFang SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #594F35;
+    white-space: pre;
+}
+/*商户商品的盒子**/
+.cs-Exchange-product{
+    width:auto;
+    height:400px;
+    padding:30px 10px;
+    margin:10px 0px;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items:center;
+}
+/*交换显示盒子*/
+.cs-Exchange-product-exchange{
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items:center;
+    margin:20px 0px;
+}
+/*交换icon*/
+.cs-Exchange-product-exchange > img{
+    height:50px;
+    width:50px;
+}
+/*交换图片*/
+.cs-Exchange-exchange{
+    width:110px;
+    height:110px;
+    border-radius: 15px;
+    box-shadow: 3px 4px 5px rgba(0,0,0,0.1);
+    margin-bottom:10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: #F3DA9F;
+}
+.cs-Exchange-exchange > img{
+    width:90px;
+    height:90px;
+    border-radius: 10px;
+}
+.cs-Exchange-exchange > p{
+    font-size: 16px;
+}
+/*商品描述*/
+.cs-Exchange-product-describe{
+    font-size:18px;
+    font-weight:100;
+    margin-bottom:10px;
+    color:white;
+}
+.cs-Exchange-product-title{
+    color:white;
+    font-size: 28px;
+    text-shadow:2px 3px 3px rgba(0,0,0,0.1);
+    align-self:flex-start;
+    margin-bottom:10px;
+}   
+h2{
+    align-self: flex-start;
+}
+/*客人评价*/
+.cs-Exchange-appraiseContent{
+    background-color:cornsilk;
+    width:300px;
+    min-height:225px;
+    max-height: 225px;
+    margin:10px;
+    margin-bottom:25px;
+    padding:10px;
+    border-radius:10px;
+    font-family: 'PingFang SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 0.45);
+}
+/*交换寄语*/
+.cs-Exchange-content{
+    width:250px;
+    height:100px;
+    font-family: 'PingFang SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: rgba(0, 0, 0, 0.45);
+}
+/*按钮盒子*/
+
+.cs-Exchange-button-x{
+    width:324px;
+    height:59px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+/*按钮*/
+.cs-Exchange-button-submit{
+    width: 210px;
+    height: 72px;
+    background: #F3DA9F;
+    border: 4px solid #C0A96C;
+    box-shadow: 4px 4px 4px 2px rgba(199, 182, 137, 0.2);
+    border-radius: 10px;
+    text-align: center;
+}

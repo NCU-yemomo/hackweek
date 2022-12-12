@@ -1,0 +1,38 @@
+.cs-Collect-full{
+    width:315px;
+    height:600px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    margin-top: 270px;
+    margin-left:10px;
+}
+.cs-Collect-full-item{
+    width: 150px;
+    height: 200px;
+    background: #F3DA9F;
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    margin-bottom:30px;
+}
+.cs-Collect-full-item > img{
+    width: 140px;
+    height:140px;
+    max-height:200px;
+    border-radius: 10px;
+}
+.cs-Collect-full-item > p{
+    font-family: 'PingFang SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    margin-top:10px;
+    color: #594F35;
+}

@@ -1,0 +1,30 @@
+.cs-Collect-x{
+    height:840px;
+    width:auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background:url("../../svg/收藏馆背景.png");
+    background-repeat:no-repeat;
+}
+.cs-Collect-title{
+    width:100%;
+    height:20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    background: #FFFEF0;
+    text-align: center;
+}
+.cs-Collect-title > p{
+    width:100%;
+    height:100%;
+    font-family: 'PingFang SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 45px;
+    color: #594F35;
+}

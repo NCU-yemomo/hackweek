@@ -1,0 +1,101 @@
+.cs-MyInfo-x{
+    height:840px;
+    width:auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background:url("../../svg/用户底部界面.png");
+}
+.cs-MyInfo-title-x{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom:1px solid black;
+    background: #FFFEF0;
+}
+.cs-MyInfo-title{
+    font-family: 'PingFang SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 56px;
+    color: #000000;
+    padding:20px;
+    
+ 
+}
+.cs-MyInfo-card-x{
+    width:100%;
+    height:120px;
+    background-color:cornsilk;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-bottom:1px solid black;
+    margin-bottom: 20px;
+}
+.cs-MyInfo-card-x > img{
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.cs-MyInfo-card-info{
+    width:181px;
+    height:73px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.cs-MyInfo-card-info-name{
+    font-family: 'PingFang SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    color: #000000;
+}
+.cs-MyInfo-card-info-id{
+    font-family: 'PingFang SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    color: #000000;
+}
+.cs-MyInfo-select-x{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.cs-MyInfo-select-item{
+    width:100%;
+    height:33px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    border-bottom:1px solid black;
+}
+.cs-MyInfo-select-item > p{
+    font-family: 'PingFang SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+
+    color: #000000;
+}
+.cs-MyInfo-select-item > img{
+    width: 33px;
+    height: 33px;
+}

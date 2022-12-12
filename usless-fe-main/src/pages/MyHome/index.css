@@ -1,0 +1,194 @@
+.cs-MyHome{
+    height:844px;
+    width:100%;
+    background: url("../../svg/myHomeBackground.png");
+    background-size: cover;
+}
+/*商铺标题*/
+.cs-MyHome-header{
+    height:100px;
+    width:auto;
+    background-color:cornsilk;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius:7px;
+    margin-bottom:10px;
+    background:transparent;
+}
+.cs-MyHome-header > input{
+    height:50px;
+    width:300px;
+    background:transparent;
+    border:none;
+    outline:none;
+    font-size:20px;
+    text-align:center;
+    margin-top:65px;
+}
+.cs-MyHome-Header > input:focus{
+    border:1px solid lightblue;
+}
+/*仓库按钮*/
+.cs-MyHome-store{
+    text-decoration: underline;
+    margin-right:20px;
+    margin-left:auto;
+    width:35px;
+    height:24px;
+    text-align: center;
+}
+/**商品展示区*/
+.cs-MyHome-content{
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    align-items:center;
+    width: 301px;
+    height: 254px;
+    padding:10px;
+    margin:auto;
+    background: #978078;
+    border: 3px solid #926A60;
+    border-radius: 7px;
+    flex-wrap: wrap;
+    margin-top:16px;
+    position:relative;
+}
+.cs-MyHome-empty-text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    margin:auto;
+    color: #F7E2C3;
+    margin-bottom:120px;
+}
+.cs-MyHome-content-item{
+    display:flex;
+    height:90px;
+    width:70px;
+    margin:10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom:1px solid black;
+    background:transparent;
+    
+}
+.cs-MyHome-content-item > img {
+    width:70px;
+    height:70px;
+    border-radius:50%;
+    box-shadow: 3px 4px 7px rgba(0,0,0,0.1);
+    cursor:pointer;
+   
+}
+.cs-MyHome-content-item > p{
+    font-size:14px;
+    color:white;
+    margin-top:5px;
+    user-select: none;
+}
+/*底部盒子*/
+.cs-MyHome-footer{
+    height:100px;
+    width:auto;
+    margin-top:-40px;
+    background-color:cornsilk;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 10px;
+    background:transparent;
+}
+/*爱心盒子**/
+.cs-MyHome-love{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:10px;
+}
+.cs-MyHome-love > img{
+    width:75px;
+    height:75px;
+    margin:10px;
+}
+
+.cs-MyHome-love > img:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+.cs-MyHome-loveTimes-x{
+    width:25px;
+    height:25px;
+    
+    border-radius:50%;
+    position:relative;
+    transform: translate(-25px,-30px);
+    text-align: center;
+    background:#FFF8D5;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+/*商品上传盒子*/
+.cs-MyHome-upon{
+    width: 71.78px;
+    height: 38px;
+    margin-left:155px;
+    background: #F3DA9F;
+    border: 4px solid #C0A96C;
+    box-shadow: 4px 4px 4px 2px rgba(199, 182, 137, 0.2);
+    border-radius: 10px;
+}
+.cs-MyHome-upon:active{
+    opacity:0.8;
+    transform:scale(0.9)
+}
+.cs-MyHome-best-product-x{
+    width: 301px;
+    height: 170px;
+    background: #978078;
+    border: 3px solid #926A60;
+    border-radius: 3px;
+    margin:0px auto;
+    margin-top:140px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.cs-MyHome-best-product-x > img{
+    max-width:100%;
+    max-height:100%;
+    border-radius: 3px;
+}
+.cs-MyHome-rabbit{
+    position:absolute;
+    bottom:-25px;
+    right:0px;
+}
+.cs-MyHome-email{
+    position:absolute;
+    transform: rotate(8.91deg);
+    left: 36.83px;
+    top: 178px;
+}
+.cs-MyHome-store{
+    position: absolute;
+    width: 71.86px;
+    height: 37px;
+    left: 313px;
+    top: 184px;
+}
+.cs-MyHome-store:hover{
+    opacity:0.8;
+    transform:scale(0.9)
+}

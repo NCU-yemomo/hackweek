@@ -1,0 +1,156 @@
+.cs-login-x{
+    width:auto;
+    height:850px;
+    background:url("../../svg/抓抓背景/背景 11.png");
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: relative;
+}
+.cs-login-x > h1{
+    font-size: 24px;
+    font-weight: 300px;
+    color: #333;
+    margin-bottom: 20px;
+    font-style:italic
+}
+.cs-login-logo{
+    width:200px;
+    height:125px;
+    background-color:rgb(255, 248, 220);
+    box-shadow:2px 3px 4px rgba(0,0,0,0.1);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.cs-login-img{
+    max-width: 100px;
+    max-height: 100px;
+    min-height: 50px;
+    min-width: 50px;
+}
+/*登录盒子*/
+.cs-login-form{
+    width: 307px;
+    height: 341px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #FAF0BC;
+    border-radius: 20px;
+    width:250px;
+    border-radius:20px ;
+}
+.cs-login-username > input,
+.cs-login-password > input{
+    width: 225px;
+    height: 56px;
+    background: #FAF0BC;;
+    border-radius: 15px;
+    outline:none;
+    margin-bottom: 20px;
+    font-size: 16px;
+    padding:10px;
+}
+.cs-login-username > input::placeholder,
+.cs-login-password > input::placeholder{
+    padding: 10px;
+    font-weight:50px;
+}
+.cs-login-username > input::content,
+.cs-login-password > input::content{
+    padding:10px;
+}
+.cs-login-password > p,
+.cs-login-username > p{
+    font-family: 'PingFang SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #594F35;
+}
+.cs-login-form > button{
+    width: 225px;
+    height: 56px;
+    box-sizing: border-box;
+    background: #FEFAE8;
+    border: 4px solid #DBC17F;
+    border-radius: 15px;
+}
+.cs-login-form > button:hover{
+    opacity:0.8;
+}
+.cs-login-form > button:active{
+    transform: scale(0.9);
+}
+
+/*下方其他功能盒子*/
+a{
+    color:pink
+}
+a:active{
+    color:lightgreen;
+}
+.cs-showBackground{
+    position:absolute;
+    z-index:999;
+    left:0;
+    bottom:0;
+    right:0;
+    top:0;
+    transition:ease 0.5s;
+}
+.cs-login-func{
+    width:307px;
+    height:28px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.cs-login-func > p{
+    font-family: 'PingFang SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #594F35;
+}
+.cs-login-notice{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    bottom:5px;
+    margin:auto
+}
+.cs-login-notice > p{
+    font-family: 'PingFang SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+
+    color: #594F35;
+}
+.cs-login-notice > input{
+    background: #F3DA9F;
+    opacity: 0.4;
+    border-radius: 2px;
+    width:10px;
+    height:10px;
+}
+.cs-login-notice > input:checked{
+    background: #F3DA9F;
+    opacity: 1;
+    border-radius: 2px;
+    width:10px;
+    height:10px;
+}

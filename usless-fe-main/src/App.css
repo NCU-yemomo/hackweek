@@ -1,0 +1,86 @@
+/*整个界面盒子*/
+.cs-all{
+  /*留存手机状态栏*/
+  height:100%;
+  width:100%;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+}
+
+/*内容展示区*/
+.cs-content{
+  height:760px;
+  width:auto;
+  background-color:white;
+  box-shadow: 3px 3px 4px rgba(0,0,0,0.1);
+}
+
+/*底部导航栏*/
+.cs-footer{
+  position: fixed;
+  bottom: 0;
+  left:0;
+  right:0;
+  height:75px;
+  width:auto;
+  background: #FFFEF0;
+  box-shadow: 3px 3px 4px rgba(0,0,0,0.1);
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  align-items:center;
+  text-align: center;
+  user-select: none;
+}
+
+/*底部选项*/
+.cs-indexList-check{
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width:280px;
+  height:65px;
+  padding:0px 5px;
+  box-shadow:3px 4px 4px rgba(0,0,0,0.1);
+  margin:0px 10px;
+  background-color:lightblue;
+  border-radius:7px;
+}
+/*设置字*/
+.cs-indexList-check > p{
+  color:white;
+  font-size:20px;
+}
+
+.cs-indexList-state{
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  padding:5px
+}
+.cs-indexList-state > img{
+  width:50px;
+  height:50px;
+  border:25px;
+  transition:ease 0.3s;
+  opacity:0.8;
+}
+.cs-indexList-state > img:hover{
+  transform: scale(0.9);
+  opacity:1;
+  transform: translateY(-5px);
+}
+.cs-indexList-state > p{
+  font-family: 'PingFang SC';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+
+  color: #594F35;
+
+}
